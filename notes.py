@@ -92,7 +92,7 @@ for neuron_weights, neuron_bias in zip(weights, biases):
     # Multiply this input by associated weight
     # and add to the neuron's output variable
     neuron_output += n_input*weight
-    # Add bias
+  # Add bias
   neuron_output += neuron_bias
   # Put neuron's result to the layer's output list
   layer_outputs.append(neuron_output)
