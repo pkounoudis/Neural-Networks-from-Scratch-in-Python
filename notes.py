@@ -113,3 +113,15 @@ b = [2, 3, 4]
 
 dot_product = a[0]*b[0] + a[1]*b[1] + a[2]*b[2]
 print(dot_product)
+
+# Doing the same with Numpy
+
+import numpy as np
+
+inputs = [1.0, 2.0, 3.0, 2.5]
+weights = [0.2, 0.8, -0.5, 1.0]
+bias = 2.0
+
+outputs = np.dot(weights, inputs) + bias
+
+print(outputs)
