@@ -106,3 +106,10 @@ tensor = [[[1,5,6,2],
            [6,4,8,4]],
            [[2,8,5,3],
            [1,1,9,4]]]
+
+# The Dot product
+a = [1, 2, 3]
+b = [2, 3, 4]
+
+dot_product = a[0]*b[0] + a[1]*b[1] + a[2]*b[2]
+print(dot_product)
