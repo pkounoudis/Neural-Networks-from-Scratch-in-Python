@@ -115,6 +115,7 @@ dot_product = a[0]*b[0] + a[1]*b[1] + a[2]*b[2]
 print(dot_product)
 
 # Doing the same with Numpy
+# A dot product of two vectors is a sum of products of consecutive vector elements. Both vectors must be of the same size (have an equal number of elements). Let’s write out how a dot product is calculated in Python. For it, you
 
 import numpy as np
 
