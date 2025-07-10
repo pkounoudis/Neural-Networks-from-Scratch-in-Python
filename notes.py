@@ -116,7 +116,6 @@ print(dot_product)
 
 # Doing the same with Numpy
 # A dot product of two vectors is a sum of products of consecutive vector elements. Both vectors must be of the same size (have an equal number of elements). Let’s write out how a dot product is calculated in Python. For it, you
-
 import numpy as np
 
 inputs = [1.0, 2.0, 3.0, 2.5]
@@ -127,8 +126,7 @@ outputs = np.dot(weights, inputs) + bias
 
 print(outputs)
 
-# A Layers of neurons 
-
+# A Layers of neurons, and a matrix
 import numpy as np
 
 inputs = [1.0, 2.0, 3.0, 2.5]
