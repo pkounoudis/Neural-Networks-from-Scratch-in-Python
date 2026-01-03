@@ -126,7 +126,7 @@ outputs = np.dot(weights, inputs) + bias
 
 print(outputs)
 
-# A Layers of neurons, and a matrix
+# A Layer of neurons, and a matrix
 import numpy as np
 
 inputs = [1.0, 2.0, 3.0, 2.5]
