@@ -1,6 +1,6 @@
 # Neural Nets, Chapter 1
 
-# Overfitting, when the network just memorizes the training data and cannot generalize!
+# Overfitting, when the network just memorizes the training data and cannot generalize.
 
 """
 You will then train your model with the other 90,000 in-sample or “training”
